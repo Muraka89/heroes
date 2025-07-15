@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+#principal {
+    width: 400px;
+    border: 1px solid black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+}

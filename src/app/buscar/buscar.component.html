@@ -1,0 +1,17 @@
+<div class="product-card">
+    <input #msg type="text" (keyup.ENTER)="ver(msg.value)">
+
+
+@if (index !== -1){
+    <p><span>Nombre:</span>{{ dato.nombre }}</p>
+    <p><span>Biografia:</span>{{ dato.bio }}</p>
+    <p><span>Casa:</span>{{ dato.casa }}</p>
+    <p><span>Aparicion:</span>{{ dato.aparicion }}</p>
+    <img [src]="dato.img" alt="">
+}@else {
+    <p id="mensaje">
+        {{mensaje}}
+    </p>
+}
+
+</div>
